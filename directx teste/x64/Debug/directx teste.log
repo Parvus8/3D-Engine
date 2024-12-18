@@ -1,0 +1,3 @@
+﻿  Window.cpp
+C:\Users\Inspiron\Documents\GitHub\projeto c++\directx teste\directx teste\Window.cpp(31,1): warning C4715: 'WndProc': nem todos os caminhos de controle retornam um valor
+  directx teste.vcxproj -> C:\Users\Inspiron\Documents\GitHub\projeto c++\directx teste\x64\Debug\directx teste.exe
