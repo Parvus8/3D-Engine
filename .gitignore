@@ -2,6 +2,6 @@
 .vs
 .gitattributes
 
-./Debug
-./x64
+Debug
+x64
 
