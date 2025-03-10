@@ -1,7 +1,5 @@
 #include "Window.h"
 
-//Window* window = NULL;
-
 Window::Window()
 {
 }
@@ -27,7 +25,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam)
 	default:
 		return ::DefWindowProc(hwnd, msg, wparam, lparam);
 	}	
-
+	return 0;
 }
 
 bool Window::init() 
@@ -40,7 +38,7 @@ bool Window::init()
 	wc.hCursor = LoadCursor(NULL, IDC_ARROW);
 	wc.hIcon = LoadIcon(NULL, IDI_APPLICATION);
 	wc.hIconSm = LoadIcon(NULL, IDI_APPLICATION);
-	wc.hInstance = NULL;
+	wc.hInstance = GetModuleHandle(NULL);
 	wc.lpszMenuName = NULL;
 	wc.lpszClassName = L"MyWindowClass";
 	wc.style = NULL;
@@ -54,7 +52,7 @@ bool Window::init()
 	m_hwnd = ::CreateWindowEx(WS_EX_OVERLAPPEDWINDOW,L"MyWindowClass",L"DirectX Application",WS_OVERLAPPEDWINDOW,CW_USEDEFAULT,CW_USEDEFAULT,1024,768,NULL,NULL,NULL,this);
 
 	//erro na criação da janela TODO: ajustar o error handling.
-	if (!m_hwnd) 
+	if (!m_hwnd)
 		return false; 
 	
 	::ShowWindow(m_hwnd, SW_SHOW);

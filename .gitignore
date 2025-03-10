@@ -1,0 +1,7 @@
+.git
+.vs
+.gitattributes
+
+./Debug
+./x64
+

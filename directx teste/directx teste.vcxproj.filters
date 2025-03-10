@@ -7,6 +7,12 @@
     <Filter Include="Engine">
       <UniqueIdentifier>{a47f1484-75c1-4733-8b0a-f53b7fa0f930}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\WindowSystem">
+      <UniqueIdentifier>{040c5cf9-305a-4a57-a88f-698843c34341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GraphicEngine">
+      <UniqueIdentifier>{ee4fb5c8-0bc3-40f0-90a5-a866a19b77f8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -16,7 +22,10 @@
       <Filter>App</Filter>
     </ClCompile>
     <ClCompile Include="Window.cpp">
-      <Filter>Engine</Filter>
+      <Filter>Engine\WindowSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicEngine.cpp">
+      <Filter>Engine\GraphicEngine</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -24,7 +33,10 @@
       <Filter>App</Filter>
     </ClInclude>
     <ClInclude Include="Window.h">
-      <Filter>Engine</Filter>
+      <Filter>Engine\WindowSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicEngine.h">
+      <Filter>Engine\GraphicEngine</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

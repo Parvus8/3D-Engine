@@ -1,3 +1,17 @@
-﻿  Window.cpp
-C:\Users\Inspiron\Documents\GitHub\projeto c++\directx teste\directx teste\Window.cpp(31,1): warning C4715: 'WndProc': nem todos os caminhos de controle retornam um valor
-  directx teste.vcxproj -> C:\Users\Inspiron\Documents\GitHub\projeto c++\directx teste\x64\Debug\directx teste.exe
+﻿AppWindow.obj : error LNK2019: símbolo externo não resolvido, "public: virtual void __cdecl Window::onCreate(void)" (?onCreate@Window@@UEAAXXZ), referenciado na função "public: virtual void __cdecl AppWindow::onCreate(void)" (?onCreate@AppWindow@@UEAAXXZ)
+AppWindow.obj : error LNK2019: símbolo externo não resolvido, "public: virtual void __cdecl Window::onUpdate(void)" (?onUpdate@Window@@UEAAXXZ), referenciado na função "public: virtual void __cdecl AppWindow::onUpdate(void)" (?onUpdate@AppWindow@@UEAAXXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp_TranslateMessage, referenciado na função "public: bool __cdecl Window::broadcast(void)" (?broadcast@Window@@QEAA_NXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp_DispatchMessageW, referenciado na função "public: bool __cdecl Window::broadcast(void)" (?broadcast@Window@@QEAA_NXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp_PeekMessageW, referenciado na função "public: bool __cdecl Window::broadcast(void)" (?broadcast@Window@@QEAA_NXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp_DefWindowProcW, referenciado na função "__int64 __cdecl WndProc(struct HWND__ *,unsigned int,unsigned __int64,__int64)" (?WndProc@@YA_JPEAUHWND__@@I_K_J@Z)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp_PostQuitMessage, referenciado na função "__int64 __cdecl WndProc(struct HWND__ *,unsigned int,unsigned __int64,__int64)" (?WndProc@@YA_JPEAUHWND__@@I_K_J@Z)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp_RegisterClassExW, referenciado na função "public: bool __cdecl Window::init(void)" (?init@Window@@QEAA_NXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp_CreateWindowExW, referenciado na função "public: bool __cdecl Window::init(void)" (?init@Window@@QEAA_NXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp_DestroyWindow, referenciado na função "public: bool __cdecl Window::release(void)" (?release@Window@@QEAA_NXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp_ShowWindow, referenciado na função "public: bool __cdecl Window::init(void)" (?init@Window@@QEAA_NXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp_UpdateWindow, referenciado na função "public: bool __cdecl Window::init(void)" (?init@Window@@QEAA_NXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp_GetWindowLongPtrW, referenciado na função "__int64 __cdecl WndProc(struct HWND__ *,unsigned int,unsigned __int64,__int64)" (?WndProc@@YA_JPEAUHWND__@@I_K_J@Z)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp_SetWindowLongPtrW, referenciado na função "__int64 __cdecl WndProc(struct HWND__ *,unsigned int,unsigned __int64,__int64)" (?WndProc@@YA_JPEAUHWND__@@I_K_J@Z)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp_LoadCursorW, referenciado na função "public: bool __cdecl Window::init(void)" (?init@Window@@QEAA_NXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp_LoadIconW, referenciado na função "public: bool __cdecl Window::init(void)" (?init@Window@@QEAA_NXZ)
+C:\Users\Inspiron\Documents\GitHub\projeto c++\directx teste\3D-Engine\x64\Debug\directx teste.exe : fatal error LNK1120: 16 externo não resolvidos
