@@ -1,7 +1,11 @@
-.git
-.vs
-.gitattributes
+/bin/
+/intermediate/
+.vs/
 
-Debug
-x64
 
+*.exe
+*.ilk
+*.exp
+*.log
+*.tlog
+*.ipch
